@@ -8,7 +8,7 @@
         "adminPassword": {
             "reference": {
               "keyVault": {
-                "id": "/subscriptions/<subscription-id>/resourceGroups/examplegroup/providers/Microsoft.KeyVault/vaults/<vault-name>"
+                "id": "/subscriptions/1e3f0eeb-2235-44cd-b3a3-dcded0861d06/resourceGroups/rg-ppo-keyvault-test/providers/Microsoft.KeyVault/vaults/ppo-test-vault"
               },
               "secretName": "SQLAdminPW"
             }
