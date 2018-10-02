@@ -3,18 +3,18 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "adminLogin": {
-            "value": "exampleadmin"
+            "value": "kantaadmin"
         },
         "adminPassword": {
             "reference": {
               "keyVault": {
                 "id": "/subscriptions/<subscription-id>/resourceGroups/examplegroup/providers/Microsoft.KeyVault/vaults/<vault-name>"
               },
-              "secretName": "examplesecret"
+              "secretName": "SQLAdminPW"
             }
         },
         "sqlServerName": {
-            "value": "<your-server-name>"
+            "value": "ppo-sql-server1"
         }
     }
 }
